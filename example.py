@@ -226,10 +226,6 @@ def botss(op, cl):
                         + "\n招待中: "
                         + str(len(gid[8][1][5]))
                     )
-                    if gid[8][1][2] is False:
-                        g_info += "\nうらる:あいてますよ"
-                    else:
-                        g_info += "\nうらる:とじてますぅ"
                     cl.replyMessage(msg, f"{g_info}")
 
                 elif text.startswith("exec:"):  # cmd:command
