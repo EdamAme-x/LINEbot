@@ -463,4 +463,5 @@ def botss(op, cl):
     else:
         log(f"[{opType}]{op}")
 
+# by @amex2189 / github.com/Edamame-x/linebot
 cl.trace(botss)
