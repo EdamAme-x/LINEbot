@@ -4,7 +4,7 @@ from enum import Enum
 from gpt4free import you
 
 ver = "v2.2.0"
-author = "u8da9ac344a26c157e58bff09579e6deb"
+author = "mid"
 mymid = "your account id"
 
 initial_setting = {
